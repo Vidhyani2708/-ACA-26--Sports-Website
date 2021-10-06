@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    font-family:verdana;
+}
+#header{
+    background:url("https://bsmedia.business-standard.com/_media/bs/img/article/2019-06/05/full/1559755245-7215.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+    padding:20px;
+}
+.uls li {
+    list-style: none;
+}
+.uls li a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.7em;
+    color:blue;
+}
+.uls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.uls li a:hover{
+    border-bottom:3px solid blue;
+}
+.heading{
+    padding:100px;
+    margin:0 auto;
+    text-align:center;
+    font-size: 1.5rem;
+    color:blue;
+    font-weight: bold;
+}
+.biography{
+    background:linear-gradient(#040d78,#3c46c2);
+    color:white;
+}
+.biography h1{
+    padding:30px 0px;
+    font-size:3rem;
+    letter-spacing:2px;
+}
+.biography p{
+font-weight:300;
+font-size:1.3rem;
+}
+.achievements{
+    background:linear-gradient(#700b2f,#96415f);
+}
+.achievements h1{
+    padding:30px 0px;
+    font-size:3rem;
+    letter-spacing:2px;
+}
+.achievements ul{
+    font-weight:300;
+    font-size:1.3rem; 
+    
+}

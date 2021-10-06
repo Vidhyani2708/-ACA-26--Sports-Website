@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL RESULTS</title>
+    <link rel="stylesheet" href="styleIplResults.css">
+</head>
+<body>
+    <div id="header">
+        <div class="navbar">
+            <ul class="uls">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="timeline.html">TIMELINE</a></li>
+                <li><a href="iplResults.html">IPL RESULTS</a></li>
+            </ul>
+        </div>
+        <div class="ipl">
+            <h2>Want to know the ranks of the IPL teams?</h2>
+            <p>Select a year to know the ranks</p>
+        <form  id="datavalue">
+                <select  id="year">
+                    <option value="year" disabled selected>Year</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                </select>
+                <input id="submit" type="submit">
+        </form>
+        <h3 style="color:navy"><span id="result1"></span><br></h3>
+        <h3 style="color:navy"><span id="result2"></span><br></h3>
+        <h3 style="color:navy"><span id="result3"></span><br></h3>
+        <h3 style="color:navy"><span id="result4"></span><br></h3>
+        <h3 style="color:navy"><span id="result5"></span><br></h3>
+        <h3 style="color:navy"><span id="result6"></span><br></h3>
+        <h3 style="color:navy"><span id="result7"></span><br></h3>
+        <h3 style="color:navy"><span id="result8"></span><br></h3>
+            </div>
+            
+            <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+            
+    <script src="scriptIplResults.js"></script>
+ </body>
+</html>

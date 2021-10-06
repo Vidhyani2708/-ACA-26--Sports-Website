@@ -1,0 +1,83 @@
+.uls li {
+    list-style: none;
+}
+.uls li a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.7em;
+    color:blue;
+}
+.uls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.uls li a:hover{
+    border-bottom:3px solid blue;
+}
+body{
+   background:url('https://i.pinimg.com/originals/63/7c/79/637c7993668c33cc28384031d74a315c.jpg');
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    
+}
+.intro{
+    padding:200px 0px;
+}
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align:center;
+}
+.container h1{
+    font-size:5rem;
+    color:rgb(12, 12, 77);
+}
+.timeline ul{
+    list-style:none;
+    padding:50px 0;
+}
+*{
+    color:rgb(12, 12, 77);
+}
+.timeline li{
+   position:relative;
+    width:6px;
+    margin: 0 auto;
+    background:rgb(12, 12, 77);
+    padding-top:50px;
+}
+.timeline ul li div{
+    position:relative;
+    bottom:0;
+    width:400px;
+    background:rgb(13, 133, 189);
+    padding:15px;
+}
+.timeline ul li:nth-child(odd) div{
+    left:50px;
+    transform:translate3d(300px,0px,300px);
+}
+.timeline ul li:nth-child(even) div{
+    left:-450px;
+    transform: translate3d(-300px,0px,-300px);
+}
+.timeline ul li div{
+    visibility:hidden;
+    opacity:0;
+    transition:all 0.5s ease-in-out;
+}
+.timeline ul li.in-view div{
+    transform:none;
+    visibility:visible;
+    opacity:1;
+}
+time{
+    display:block;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-bottom:8px;
+}
